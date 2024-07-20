@@ -16,7 +16,7 @@ function getRank(nickName, victories, defeats){
     }else{
         playerRank = "Iron";
     }
-    return `The hero has ${pdlPlayer} PDL and is in the ${playerRank} Rank`;
+    return `The hero ${nickName} has ${pdlPlayer} PDL and is in the ${playerRank} Rank`;
 }
 let player1 = getRank("JarvanRei", 10, 30)
 console.log(player1)
