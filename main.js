@@ -18,5 +18,8 @@ function getRank(nickName, victories, defeats){
     }
     return `The hero ${nickName} has ${pdlPlayer} PDL and is in the ${playerRank} Rank`;
 }
-let player1 = getRank("JarvanRei", 10, 30)
-console.log(player1)
+
+for(let i = 0; i < 200; i+=10){
+    let player1 = getRank("JarvanRei", i, 30)
+    console.log(player1);
+}
